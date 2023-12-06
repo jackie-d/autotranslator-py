@@ -4,6 +4,12 @@
 
 Reads a Json file from the user locally which contains words or sentences of natural human language, translates it by Google services and it gives out a Json with same keys and updated values.
 
+## Requirements
+
+#### Install Python
+
+Install Python from https://www.python.org/downloads/
+
 ## Usage
 
 #### Installing the required libraries
@@ -26,10 +32,14 @@ It's possible to run the command also as `py transalate.py it en` so it gets spe
 
 If you run the script by `py translate.py > output.json` you can save the resulting Json object directly to a local file.
 
+#### Terminate execution
+
+If you press `CTRL+Q` you can terminate in any moment the program exection but you keep the Json output of the work already did
+
 #### Codes for language
 
 Codes of two letters are requested as language identifiers
-[ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+- [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
 ## GitHub Repository
 
